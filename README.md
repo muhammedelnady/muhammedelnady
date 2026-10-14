@@ -29,7 +29,7 @@
   <a href="https://mohamedelnady.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-mohamedelnady.app-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" /></a>
   <a href="https://linkedin.com/in/mohammedelnady"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
   <a href="mailto:muhammed.elnady@hotmail.com"><img src="https://img.shields.io/badge/Email-Get%20in%20Touch-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
-  <img src="https://komarev.com/ghpvc/?username=mohamedelandy&label=Profile%20views&color=087EA4&labelColor=0D1117&style=for-the-badge" alt="Profile views" />
+  <img src="https://hits.sh/github.com/mohamedelandy.svg?style=for-the-badge&label=PROFILE+VIEWS&color=087EA4&labelColor=0D1117&extraCount=20" alt="Profile views" />
 </p>
 
 <!-- 📈 By the numbers -->
