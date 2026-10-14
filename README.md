@@ -29,7 +29,7 @@
   <a href="https://mohamedelnady.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-mohamedelnady.app-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" /></a>
   <a href="https://linkedin.com/in/mohammedelnady"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
   <a href="mailto:muhammed.elnady@hotmail.com"><img src="https://img.shields.io/badge/Email-Get%20in%20Touch-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
-  <img src="https://hits.sh/github.com/mohamedelandy.svg?style=for-the-badge&label=PROFILE+VIEWS&color=087EA4&labelColor=0D1117&extraCount=20" alt="Profile views" />
+  <img src="https://hits.sh/github.com/muhammedelnady.svg?style=for-the-badge&label=PROFILE+VIEWS&color=087EA4&labelColor=0D1117&extraCount=20" alt="Profile views" />
 </p>
 
 <!-- 📈 By the numbers -->
@@ -100,9 +100,9 @@ const mohamed = {
 <h2 align="center">📊 GitHub Stats</h2>
 
 <div align="center">
-  <img src="https://img.shields.io/github/followers/mohamedelandy?style=for-the-badge&logo=github&color=0A66C2&labelColor=0D1117" alt="GitHub followers" />
+  <img src="https://img.shields.io/github/followers/muhammedelnady?style=for-the-badge&logo=github&color=0A66C2&labelColor=0D1117" alt="GitHub followers" />
   <br/><br/>
-  <img src="https://streak-stats.demolab.com/?user=mohamedelandy&theme=tokyonight&hide_border=true&ring=61DAFB&fire=61DAFB&currStreakLabel=61DAFB&background=0D1117" alt="GitHub Streak" />
+  <img src="https://streak-stats.demolab.com/?user=muhammedelnady&theme=tokyonight&hide_border=true&ring=61DAFB&fire=61DAFB&currStreakLabel=61DAFB&background=0D1117" alt="GitHub Streak" />
 </div>
 
 <h2 align="center">🤝 Let's Build Something Great</h2>
