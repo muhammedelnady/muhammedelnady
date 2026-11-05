@@ -77,6 +77,10 @@ const mohamedElnady = {
 
 <div align="center">
 
+<p align="center">
+  <img alt="Core Stack: React Native, TypeScript, JavaScript, Swift, Kotlin, Redux, Node.js, Firebase, Azure DevOps, Git" src="https://skillicons.dev/icons?i=react,ts,js,swift,kotlin,redux,nodejs,firebase,azure,git&perline=10" />
+</p>
+
 <table width="100%">
   <thead>
     <tr>
@@ -218,7 +222,28 @@ const mohamedElnady = {
   </a>
 </p>
 
-<img width="68%" src="https://streak-stats.demolab.com/?user=muhammedelnady&theme=tokyonight&hide_border=true&ring=61DAFB&fire=61DAFB&currStreakLabel=61DAFB&background=0D1117" alt="GitHub Streak" />
+<!-- ⚡ Dynamic Stats & Language Insights -->
+<p align="center">
+  <img height="185" src="https://github-readme-stats-eight-theta.vercel.app/api?username=muhammedelnady&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=61DAFB&icon_color=61DAFB&text_color=E2E8F0&count_private=true" alt="Mohamed's GitHub Stats" />
+  &nbsp;
+  <img height="185" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=muhammedelnady&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=61DAFB&text_color=E2E8F0" alt="Top Languages" />
+</p>
+
+<!-- 🔥 Contribution Streak -->
+<p align="center">
+  <img width="68%" src="https://streak-stats.demolab.com/?user=muhammedelnady&theme=tokyonight&hide_border=true&ring=61DAFB&fire=61DAFB&currStreakLabel=61DAFB&background=0D1117" alt="GitHub Streak" />
+</p>
+
+<!-- 🐍 Contribution Snake Eater -->
+<h3 align="center">🐍 Contribution Journey</h3>
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/muhammedelnady/muhammedelnady/output/github-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/muhammedelnady/muhammedelnady/output/github-snake.svg" />
+    <img alt="Mohamed Elnady's Contribution Snake" src="https://raw.githubusercontent.com/muhammedelnady/muhammedelnady/output/github-snake-dark.svg" />
+  </picture>
+</p>
 
 </div>
 
@@ -252,6 +277,9 @@ const mohamedElnady = {
   <a href="https://linkedin.com/in/mohammedelnady"><img src="https://img.shields.io/badge/LINKEDIN-MESSAGE%20ME-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0D1117" alt="LinkedIn" /></a>&nbsp;
   <a href="mailto:muhammed.elnady@hotmail.com"><img src="https://img.shields.io/badge/DIRECT%20EMAIL-muhammed.elnady%40hotmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0D1117" alt="Email" /></a>
 </p>
+
+<!-- 🌊 Animated Cyber Wave Transition -->
+<img width="100%" alt="Cyber Wave Transition" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:0a66c2,100:61dafb&height=85&section=footer" />
 
 <img width="100%" src="./footer.svg" alt="Mohamed Elnady — Ship Fast. Feel Native. Scale Clean." />
 
