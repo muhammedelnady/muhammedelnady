@@ -188,26 +188,38 @@ const mohamedElnady = {
 <table width="100%">
   <tr>
     <td width="50%" valign="top">
-      <h4><a href="https://github.com/muhammedelnady/react-native-foldface">react-native-foldface</a></h4>
-      <p>Native-feeling 3D fold &amp; flip reveal animations for React Native with expandable cards, nested folds, and smooth spring transitions.</p>
-      <p><code>TypeScript</code> <code>Reanimated</code> <code>Tree-Shakeable</code></p>
+      <h4><a href="https://github.com/muhammedelnady/VaultFold">VaultFold</a></h4>
+      <p>Offline-first, privacy-preserving crypto portfolio ledger &amp; market explorer with AES-256 MMKV vault, arbitrary-precision Decimal math, Skia 120Hz charts, and adaptive foldable postures.</p>
+      <p><code>Expo SDK 58</code> <code>TypeScript 6</code> <code>MMKV AES-256</code> <code>Skia</code> <code>Foldable UI</code></p>
     </td>
     <td width="50%" valign="top">
-      <h4><a href="https://github.com/muhammedelnady/moviesapp-ios">moviesapp-ios</a></h4>
-      <p>Native iOS streaming showcase built with strict Swift 6 concurrency, spatial audio UI, WidgetKit extensions, Google Cast, and App Intents.</p>
-      <p><code>Swift 6</code> <code>SwiftUI</code> <code>SwiftData</code> <code>WidgetKit</code></p>
+      <h4><a href="https://github.com/muhammedelnady/chat-roulette">chat-roulette</a></h4>
+      <p>Real-time messaging rooms &amp; topic-matched roulette radar showcase featuring an offline-first MMKV FIFO outbox, voice note waveforms, emoji reactions, and live EN/AR RTL switching.</p>
+      <p><code>Expo SDK 58</code> <code>React 19</code> <code>Clean Architecture</code> <code>Reanimated 4</code> <code>Argent E2E</code></p>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h4><a href="https://github.com/muhammedelnady/moviesapp-android">moviesapp-android</a></h4>
-      <p>Native Android streaming showcase built with Jetpack Compose, Clean Architecture, adaptive multi-size widgets, Media3 Cast, and AppFunctions AI.</p>
-      <p><code>Kotlin 2.2</code> <code>Jetpack Compose</code> <code>Material 3</code> <code>Room</code></p>
+      <h4><a href="https://github.com/muhammedelnady/qadaa">qadaa (قضاء)</a></h4>
+      <p>Arabic-first, 100% on-device prayer recovery companion with guided estimation, 28-day consistency heatmaps, streaks &amp; ranks, native Home Screen widgets, and 865 passing tests (99%+ coverage).</p>
+      <p><code>Expo SDK 57</code> <code>Arabic RTL</code> <code>Zustand 5</code> <code>WidgetKit</code> <code>99% Coverage</code></p>
     </td>
     <td width="50%" valign="top">
-      <h4><a href="https://github.com/muhammedelnady/VaultFold">VaultFold</a> &amp; <a href="https://github.com/muhammedelnady/qadaa">qadaa</a></h4>
-      <p>Offline-first Expo SDK showcases combining AES-256 encrypted MMKV storage, Skia charts, foldable posture support, and Arabic-first RTL design.</p>
-      <p><code>Expo SDK</code> <code>MMKV AES-256</code> <code>Skia</code> <code>Arabic RTL</code></p>
+      <h4><a href="https://github.com/muhammedelnady/react-native-foldface">react-native-foldface</a></h4>
+      <p>Published open-source npm library delivering 60/120 FPS 3D card fold &amp; flip reveal animations on the UI thread via Reanimated 4 worklets, hardware rasterization, and nested fold cascades.</p>
+      <p><code>npm Package</code> <code>Reanimated 4</code> <code>Worklets</code> <code>TypeScript</code> <code>Tree-Shakeable</code></p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h4><a href="https://github.com/muhammedelnady/moviesapp-ios">moviesapp-ios</a></h4>
+      <p>Native iOS Spatial Cinema showcase built with strict Swift 6 concurrency, holographic discovery cards, 360° Atmos player, multi-size WidgetKit extensions, Google Cast, and Siri App Intents.</p>
+      <p><code>Swift 6.0</code> <code>SwiftUI</code> <code>SwiftData</code> <code>WidgetKit</code> <code>App Intents</code></p>
+    </td>
+    <td width="50%" valign="top">
+      <h4><a href="https://github.com/muhammedelnady/moviesapp-android">moviesapp-android</a></h4>
+      <p>Native Android Spatial Cinema showcase built with Kotlin 2.2, Jetpack Compose Material 3, Room SQLite, Media3 ExoPlayer &amp; Google Cast, 3 Home Screen widgets, and Android AppFunctions AI.</p>
+      <p><code>Kotlin 2.2</code> <code>Jetpack Compose</code> <code>Material 3</code> <code>Media3 Cast</code> <code>AppFunctions</code></p>
     </td>
   </tr>
 </table>
