@@ -362,15 +362,6 @@ flowchart LR
   </tr>
 </table>
 
-<!-- Trophies -->
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-trophy.vercel.app/?username=muhammedelnady&theme=tokyonight&no-frame=true&no-bg=true&row=1&column=7&margin-w=8" />
-    <source media="(prefers-color-scheme: light)" srcset="https://github-profile-trophy.vercel.app/?username=muhammedelnady&theme=flat&no-frame=true&no-bg=true&row=1&column=7&margin-w=8" />
-    <img width="100%" src="https://github-profile-trophy.vercel.app/?username=muhammedelnady&theme=tokyonight&no-frame=true&no-bg=true&row=1&column=7&margin-w=8" alt="GitHub trophies" />
-  </picture>
-</p>
-
 <!-- Adaptive Contribution Streak -->
 <p align="center">
   <picture>
