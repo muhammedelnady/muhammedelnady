@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="186" height="38" viewBox="0 0 186 38" role="img" aria-label="Email · Contact ↗">
+  <rect x="0.75" y="0.75" width="184.5" height="36.5" rx="18.25" fill="#14213D" stroke="#1E2E4A" stroke-width="1.1" />
+  <g transform="translate(15, 11)" fill="none" stroke="#38BDF8" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="1.5" y="3" width="13" height="10" rx="2"/><path d="m2 4 6 4.2L14 4"/>
+  </g>
+  <text x="38" y="23" font-family="'Plus Jakarta Sans', 'SF Pro Text', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="700" fill="#F8FAFC">Email <tspan font-family="'JetBrains Mono', 'SF Mono', 'Fira Code', ui-monospace, Menlo, Consolas, monospace" font-size="11" font-weight="500" fill="#94A3B8">· Contact ↗</tspan></text>
+</svg>

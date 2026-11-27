@@ -1,72 +1,82 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="495" height="195" viewBox="0 0 495 195" role="img" aria-label="Top Languages for muhammedelnady">
+<svg xmlns="http://www.w3.org/2000/svg" width="442" height="196" viewBox="0 0 442 196" role="img" aria-label="Top Languages for muhammedelnady">
   <defs>
+    
     <linearGradient id="lang-bg-light" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#F8FAFC" />
-      <stop offset="100%" stop-color="#FFFFFF" />
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="55%" stop-color="#F8FAFC" />
+      <stop offset="100%" stop-color="#F1F5F9" />
     </linearGradient>
-    <linearGradient id="lang-top-light" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#0A66C2" stop-opacity="0" />
-      <stop offset="30%" stop-color="#087EA4" stop-opacity="0.85" />
-      <stop offset="70%" stop-color="#7C3AED" stop-opacity="0.75" />
-      <stop offset="100%" stop-color="#7C3AED" stop-opacity="0" />
+    <linearGradient id="lang-topline-light" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#087EA4" stop-opacity="0" />
+      <stop offset="28%" stop-color="#087EA4" stop-opacity="0.85" />
+      <stop offset="55%" stop-color="#0284C7" stop-opacity="0.9" />
+      <stop offset="78%" stop-color="#059669" stop-opacity="0.7" />
+      <stop offset="100%" stop-color="#059669" stop-opacity="0" />
     </linearGradient>
+    <radialGradient id="lang-glow-a-light" cx="14%" cy="18%" r="52%">
+      <stop offset="0%" stop-color="#087EA4" stop-opacity="0.08" />
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0" />
+    </radialGradient>
+    <radialGradient id="lang-glow-b-light" cx="88%" cy="22%" r="46%">
+      <stop offset="0%" stop-color="#059669" stop-opacity="0.06" />
+      <stop offset="100%" stop-color="#F1F5F9" stop-opacity="0" />
+    </radialGradient>
+    <pattern id="lang-grid-light" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M 32 0 L 0 0 0 32" fill="none" stroke="#087EA4" stroke-width="0.6" stroke-opacity="0.04" />
+    </pattern>
     <clipPath id="lang-bar-clip-light">
-      <rect x="22" y="64" width="451" height="11" rx="5.5" />
+      <rect x="20" y="63" width="402" height="11" rx="5.5" />
     </clipPath>
   </defs>
 
-  <rect x="0.75" y="0.75" width="493.5" height="193.5" rx="14" fill="url(#lang-bg-light)" stroke="#CBD5E1" stroke-width="1.2" />
-  <line x1="28" y1="1.2" x2="467" y2="1.2" stroke="url(#lang-top-light)" stroke-width="1.5" opacity="0.65" />
+  <rect x="0.75" y="0.75" width="440.5" height="194.5" rx="16" fill="url(#lang-bg-light)" stroke="#CBD5E1" stroke-width="1.2" />
+  <line x1="28" y1="1.3" x2="414" y2="1.3" stroke="url(#lang-topline-light)" stroke-width="1.5" opacity="0.72" />
 
-  <!-- Header -->
-  <g transform="translate(22, 22)">
-    <g transform="scale(0.76)">
-      <polyline points="16 18 22 12 16 6" fill="none" stroke="#087EA4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-      <polyline points="8 6 2 12 8 18" fill="none" stroke="#087EA4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+  <g transform="translate(20, 20)">
+    <g transform="scale(0.74)">
+      <polyline points="16 18 22 12 16 6" fill="none" stroke="#087EA4" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round" />
+      <polyline points="8 6 2 12 8 18" fill="none" stroke="#087EA4" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round" />
     </g>
-    <text x="25" y="13.5" font-family="'SF Pro Display', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="14.5" font-weight="700" fill="#0F172A">Top Languages</text>
+    <text x="24" y="13.5" font-family="'Space Grotesk', 'SF Pro Display', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="14" font-weight="700" fill="#0F172A">Language Distribution</text>
   </g>
-  <rect x="352" y="17" width="121" height="22" rx="11" fill="#EFF6FF" stroke="#BFDBFE" stroke-width="1" />
-  <text x="412.5" y="31.5" text-anchor="middle" font-family="'SF Mono', 'JetBrains Mono', 'Fira Code', ui-monospace, Menlo, monospace" font-size="9.5" font-weight="600" letter-spacing="0.4" fill="#087EA4">PUBLIC CODEBASE</text>
+  <rect x="304" y="16" width="118" height="22" rx="11" fill="#F0F9FF" stroke="#BAE6FD" stroke-width="1" />
+  <text x="363" y="30.5" text-anchor="middle" font-family="'JetBrains Mono', 'SF Mono', 'Fira Code', ui-monospace, Menlo, Consolas, monospace" font-size="9" font-weight="700" letter-spacing="0.4" fill="#087EA4">PUBLIC REPOS</text>
 
-  <line x1="22" y1="47" x2="473" y2="47" stroke="#CBD5E1" stroke-width="1" opacity="0.65" />
+  <line x1="20" y1="46" x2="422" y2="46" stroke="#E2E8F0" stroke-width="1" />
 
-  <!-- Segmented Language Bar -->
-  <rect x="22" y="64" width="451" height="11" rx="5.5" fill="#E2E8F0" />
+  <rect x="20" y="63" width="402" height="11" rx="5.5" fill="#E2E8F0" />
   <g clip-path="url(#lang-bar-clip-light)">
-    <rect x="22.00" y="64" width="347.75" height="11" fill="#3178c6" /><rect x="369.75" y="64" width="55.15" height="11" fill="#A97BFF" /><line x1="369.75" y1="64" x2="369.75" y2="75" stroke="#FFFFFF" stroke-width="1.5" /><rect x="424.89" y="64" width="31.35" height="11" fill="#F05138" /><line x1="424.89" y1="64" x2="424.89" y2="75" stroke="#FFFFFF" stroke-width="1.5" /><rect x="456.24" y="64" width="8.71" height="11" fill="#f1e05a" /><line x1="456.24" y1="64" x2="456.24" y2="75" stroke="#FFFFFF" stroke-width="1.5" /><rect x="464.95" y="64" width="7.26" height="11" fill="#3572A5" /><line x1="464.95" y1="64" x2="464.95" y2="75" stroke="#FFFFFF" stroke-width="1.5" /><rect x="472.21" y="64" width="2.00" height="11" fill="#89e051" /><line x1="472.21" y1="64" x2="472.21" y2="75" stroke="#FFFFFF" stroke-width="1.5" />
+    <rect x="20.00" y="63" width="309.96" height="11" fill="#3178c6" /><rect x="329.96" y="63" width="49.15" height="11" fill="#A97BFF" /><line x1="329.96" y1="63" x2="329.96" y2="74" stroke="#FFFFFF" stroke-width="1.5" /><rect x="379.12" y="63" width="27.95" height="11" fill="#F05138" /><line x1="379.12" y1="63" x2="379.12" y2="74" stroke="#FFFFFF" stroke-width="1.5" /><rect x="407.06" y="63" width="7.76" height="11" fill="#f1e05a" /><line x1="407.06" y1="63" x2="407.06" y2="74" stroke="#FFFFFF" stroke-width="1.5" /><rect x="414.82" y="63" width="6.47" height="11" fill="#3572A5" /><line x1="414.82" y1="63" x2="414.82" y2="74" stroke="#FFFFFF" stroke-width="1.5" /><rect x="421.29" y="63" width="2.00" height="11" fill="#89e051" /><line x1="421.29" y1="63" x2="421.29" y2="74" stroke="#FFFFFF" stroke-width="1.5" />
   </g>
-
-  <!-- 2x3 Legend Grid -->
   
-  <g transform="translate(22, 98)">
+  <g transform="translate(20, 97)">
     <circle cx="5" cy="5" r="4.5" fill="#3178c6" stroke="#CBD5E1" stroke-width="0.6" />
-    <text x="17" y="9" font-family="'SF Pro Text', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#0F172A">TypeScript</text>
-    <text x="214" y="9" text-anchor="end" font-family="'SF Mono', 'JetBrains Mono', 'Fira Code', ui-monospace, Menlo, monospace" font-size="11.5" font-weight="600" fill="#475569">77.1%</text>
+    <text x="16" y="9" font-family="'Plus Jakarta Sans', 'SF Pro Text', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600" fill="#0F172A">TypeScript</text>
+    <text x="194" y="9" text-anchor="end" font-family="'JetBrains Mono', 'SF Mono', 'Fira Code', ui-monospace, Menlo, Consolas, monospace" font-size="11.2" font-weight="600" fill="#334155">77.1%</text>
   </g>
-  <g transform="translate(254, 98)">
+  <g transform="translate(226, 97)">
     <circle cx="5" cy="5" r="4.5" fill="#A97BFF" stroke="#CBD5E1" stroke-width="0.6" />
-    <text x="17" y="9" font-family="'SF Pro Text', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#0F172A">Kotlin</text>
-    <text x="214" y="9" text-anchor="end" font-family="'SF Mono', 'JetBrains Mono', 'Fira Code', ui-monospace, Menlo, monospace" font-size="11.5" font-weight="600" fill="#475569">12.2%</text>
+    <text x="16" y="9" font-family="'Plus Jakarta Sans', 'SF Pro Text', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600" fill="#0F172A">Kotlin</text>
+    <text x="194" y="9" text-anchor="end" font-family="'JetBrains Mono', 'SF Mono', 'Fira Code', ui-monospace, Menlo, Consolas, monospace" font-size="11.2" font-weight="600" fill="#334155">12.2%</text>
   </g>
-  <g transform="translate(22, 126)">
+  <g transform="translate(20, 125)">
     <circle cx="5" cy="5" r="4.5" fill="#F05138" stroke="#CBD5E1" stroke-width="0.6" />
-    <text x="17" y="9" font-family="'SF Pro Text', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#0F172A">Swift</text>
-    <text x="214" y="9" text-anchor="end" font-family="'SF Mono', 'JetBrains Mono', 'Fira Code', ui-monospace, Menlo, monospace" font-size="11.5" font-weight="600" fill="#475569">6.9%</text>
+    <text x="16" y="9" font-family="'Plus Jakarta Sans', 'SF Pro Text', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600" fill="#0F172A">Swift</text>
+    <text x="194" y="9" text-anchor="end" font-family="'JetBrains Mono', 'SF Mono', 'Fira Code', ui-monospace, Menlo, Consolas, monospace" font-size="11.2" font-weight="600" fill="#334155">6.9%</text>
   </g>
-  <g transform="translate(254, 126)">
+  <g transform="translate(226, 125)">
     <circle cx="5" cy="5" r="4.5" fill="#f1e05a" stroke="#CBD5E1" stroke-width="0.6" />
-    <text x="17" y="9" font-family="'SF Pro Text', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#0F172A">JavaScript</text>
-    <text x="214" y="9" text-anchor="end" font-family="'SF Mono', 'JetBrains Mono', 'Fira Code', ui-monospace, Menlo, monospace" font-size="11.5" font-weight="600" fill="#475569">1.9%</text>
+    <text x="16" y="9" font-family="'Plus Jakarta Sans', 'SF Pro Text', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600" fill="#0F172A">JavaScript</text>
+    <text x="194" y="9" text-anchor="end" font-family="'JetBrains Mono', 'SF Mono', 'Fira Code', ui-monospace, Menlo, Consolas, monospace" font-size="11.2" font-weight="600" fill="#334155">1.9%</text>
   </g>
-  <g transform="translate(22, 154)">
+  <g transform="translate(20, 153)">
     <circle cx="5" cy="5" r="4.5" fill="#3572A5" stroke="#CBD5E1" stroke-width="0.6" />
-    <text x="17" y="9" font-family="'SF Pro Text', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#0F172A">Python</text>
-    <text x="214" y="9" text-anchor="end" font-family="'SF Mono', 'JetBrains Mono', 'Fira Code', ui-monospace, Menlo, monospace" font-size="11.5" font-weight="600" fill="#475569">1.6%</text>
+    <text x="16" y="9" font-family="'Plus Jakarta Sans', 'SF Pro Text', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600" fill="#0F172A">Python</text>
+    <text x="194" y="9" text-anchor="end" font-family="'JetBrains Mono', 'SF Mono', 'Fira Code', ui-monospace, Menlo, Consolas, monospace" font-size="11.2" font-weight="600" fill="#334155">1.6%</text>
   </g>
-  <g transform="translate(254, 154)">
+  <g transform="translate(226, 153)">
     <circle cx="5" cy="5" r="4.5" fill="#89e051" stroke="#CBD5E1" stroke-width="0.6" />
-    <text x="17" y="9" font-family="'SF Pro Text', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#0F172A">Shell</text>
-    <text x="214" y="9" text-anchor="end" font-family="'SF Mono', 'JetBrains Mono', 'Fira Code', ui-monospace, Menlo, monospace" font-size="11.5" font-weight="600" fill="#475569">0.2%</text>
+    <text x="16" y="9" font-family="'Plus Jakarta Sans', 'SF Pro Text', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600" fill="#0F172A">Shell</text>
+    <text x="194" y="9" text-anchor="end" font-family="'JetBrains Mono', 'SF Mono', 'Fira Code', ui-monospace, Menlo, Consolas, monospace" font-size="11.2" font-weight="600" fill="#334155">0.2%</text>
   </g>
 </svg>

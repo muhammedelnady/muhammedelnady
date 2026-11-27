@@ -1,0 +1,110 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="896" height="208" viewBox="0 0 896 208" role="img" aria-label="Commercial Enterprise Production Suite — Tjaara Ecosystem">
+  <defs>
+    
+    <linearGradient id="ent-bg-light" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="55%" stop-color="#F8FAFC" />
+      <stop offset="100%" stop-color="#F1F5F9" />
+    </linearGradient>
+    <linearGradient id="ent-topline-light" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#087EA4" stop-opacity="0" />
+      <stop offset="28%" stop-color="#087EA4" stop-opacity="0.85" />
+      <stop offset="55%" stop-color="#0284C7" stop-opacity="0.9" />
+      <stop offset="78%" stop-color="#059669" stop-opacity="0.7" />
+      <stop offset="100%" stop-color="#059669" stop-opacity="0" />
+    </linearGradient>
+    <radialGradient id="ent-glow-a-light" cx="14%" cy="18%" r="52%">
+      <stop offset="0%" stop-color="#087EA4" stop-opacity="0.08" />
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0" />
+    </radialGradient>
+    <radialGradient id="ent-glow-b-light" cx="88%" cy="22%" r="46%">
+      <stop offset="0%" stop-color="#059669" stop-opacity="0.06" />
+      <stop offset="100%" stop-color="#F1F5F9" stop-opacity="0" />
+    </radialGradient>
+    <pattern id="ent-grid-light" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M 32 0 L 0 0 0 32" fill="none" stroke="#087EA4" stroke-width="0.6" stroke-opacity="0.04" />
+    </pattern>
+    <clipPath id="ent-clip-light">
+      <rect x="1" y="1" width="894" height="206" rx="18" />
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#ent-clip-light)">
+    <rect x="1" y="1" width="894" height="206" fill="url(#ent-bg-light)" />
+    <rect x="1" y="1" width="894" height="206" fill="url(#ent-glow-a-light)" />
+  </g>
+  <rect x="1" y="1" width="894" height="206" rx="18" fill="none" stroke="#CBD5E1" stroke-width="1.2" />
+  <line x1="48" y1="1.5" x2="848" y2="1.5" stroke="url(#ent-topline-light)" stroke-width="1.6" opacity="0.72" />
+
+  <circle cx="30" cy="30" r="4" fill="#059669" />
+  <text x="42" y="34" font-family="'Space Grotesk', 'SF Pro Display', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="14.2" font-weight="700" fill="#0F172A">Commercial Enterprise Ecosystem <tspan font-family="'Plus Jakarta Sans', 'SF Pro Text', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11.8" font-weight="500" fill="#64748B">· Storefront, Merchant &amp; B2B Suite</tspan></text>
+
+  <rect x="704" y="18" width="170" height="23" rx="11.5" fill="#F0F9FF" stroke="#BAE6FD" stroke-width="1" />
+  <text x="789" y="33" text-anchor="middle" font-family="'JetBrains Mono', 'SF Mono', 'Fira Code', ui-monospace, Menlo, Consolas, monospace" font-size="9" font-weight="700" letter-spacing="0.4" fill="#087EA4">APP STORE &amp; GOOGLE PLAY</text>
+
+  <line x1="22" y1="48" x2="874" y2="48" stroke="#E2E8F0" stroke-width="1" />
+  
+    <g transform="translate(22, 58)">
+      <rect width="276" height="132" rx="13" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1" />
+      <rect x="16" y="14" width="148" height="19" rx="9.5" fill="#EFF6FF" stroke="#BAE6FD" stroke-width="0.9" />
+      <text x="90" y="26.5" text-anchor="middle" font-family="'JetBrains Mono', 'SF Mono', 'Fira Code', ui-monospace, Menlo, Consolas, monospace" font-size="8.4" font-weight="700" letter-spacing="0.4" fill="#087EA4">WHITE-LABEL E-COMMERCE</text>
+      <text x="16" y="53" font-family="'Space Grotesk', 'SF Pro Display', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="15.2" font-weight="700" fill="#0F172A">Tjaara Multi-Stores</text>
+      <text x="16" y="73" font-family="'Plus Jakarta Sans', 'SF Pro Text', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11.2" font-weight="500" fill="#334155">Multi-tenant storefront with runtime</text>
+      <text x="16" y="89" font-family="'Plus Jakarta Sans', 'SF Pro Text', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11.2" font-weight="500" fill="#334155">theming, fast checkout &amp; Arabic RTL.</text>
+      
+        <g transform="translate(16, 100)">
+          <rect width="87" height="20" rx="6" fill="#F1F5F9" stroke="#E2E8F0" stroke-width="1" />
+          <text x="43.5" y="13.5" text-anchor="middle" font-family="'JetBrains Mono', 'SF Mono', 'Fira Code', ui-monospace, Menlo, Consolas, monospace" font-size="8.8" font-weight="600" fill="#334155">Multi-Tenant</text>
+        </g>
+        <g transform="translate(109, 100)">
+          <rect width="51" height="20" rx="6" fill="#F1F5F9" stroke="#E2E8F0" stroke-width="1" />
+          <text x="25.5" y="13.5" text-anchor="middle" font-family="'JetBrains Mono', 'SF Mono', 'Fira Code', ui-monospace, Menlo, Consolas, monospace" font-size="8.8" font-weight="600" fill="#334155">Themes</text>
+        </g>
+        <g transform="translate(166, 100)">
+          <rect width="51" height="20" rx="6" fill="#F1F5F9" stroke="#E2E8F0" stroke-width="1" />
+          <text x="25.5" y="13.5" text-anchor="middle" font-family="'JetBrains Mono', 'SF Mono', 'Fira Code', ui-monospace, Menlo, Consolas, monospace" font-size="8.8" font-weight="600" fill="#334155">RTL UX</text>
+        </g>
+    </g>
+    <g transform="translate(310, 58)">
+      <rect width="276" height="132" rx="13" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1" />
+      <rect x="16" y="14" width="136" height="19" rx="9.5" fill="#ECFDF5" stroke="#A7F3D0" stroke-width="0.9" />
+      <text x="84" y="26.5" text-anchor="middle" font-family="'JetBrains Mono', 'SF Mono', 'Fira Code', ui-monospace, Menlo, Consolas, monospace" font-size="8.4" font-weight="700" letter-spacing="0.4" fill="#059669">REAL-TIME OPERATIONS</text>
+      <text x="16" y="53" font-family="'Space Grotesk', 'SF Pro Display', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="15.2" font-weight="700" fill="#0F172A">Tjaara Merchant HQ</text>
+      <text x="16" y="73" font-family="'Plus Jakarta Sans', 'SF Pro Text', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11.2" font-weight="500" fill="#334155">Merchant command center for instant</text>
+      <text x="16" y="89" font-family="'Plus Jakarta Sans', 'SF Pro Text', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11.2" font-weight="500" fill="#334155">order orchestration &amp; live inventory.</text>
+      
+        <g transform="translate(16, 100)">
+          <rect width="69" height="20" rx="6" fill="#F1F5F9" stroke="#E2E8F0" stroke-width="1" />
+          <text x="34.5" y="13.5" text-anchor="middle" font-family="'JetBrains Mono', 'SF Mono', 'Fira Code', ui-monospace, Menlo, Consolas, monospace" font-size="8.8" font-weight="600" fill="#334155">Live Sync</text>
+        </g>
+        <g transform="translate(91, 100)">
+          <rect width="69" height="20" rx="6" fill="#F1F5F9" stroke="#E2E8F0" stroke-width="1" />
+          <text x="34.5" y="13.5" text-anchor="middle" font-family="'JetBrains Mono', 'SF Mono', 'Fira Code', ui-monospace, Menlo, Consolas, monospace" font-size="8.8" font-weight="600" fill="#334155">Analytics</text>
+        </g>
+        <g transform="translate(166, 100)">
+          <rect width="63" height="20" rx="6" fill="#F1F5F9" stroke="#E2E8F0" stroke-width="1" />
+          <text x="31.5" y="13.5" text-anchor="middle" font-family="'JetBrains Mono', 'SF Mono', 'Fira Code', ui-monospace, Menlo, Consolas, monospace" font-size="8.8" font-weight="600" fill="#334155">FCM Push</text>
+        </g>
+    </g>
+    <g transform="translate(598, 58)">
+      <rect width="276" height="132" rx="13" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1" />
+      <rect x="16" y="14" width="95" height="19" rx="9.5" fill="#F5F3FF" stroke="#DDD6FE" stroke-width="0.9" />
+      <text x="63.5" y="26.5" text-anchor="middle" font-family="'JetBrains Mono', 'SF Mono', 'Fira Code', ui-monospace, Menlo, Consolas, monospace" font-size="8.4" font-weight="700" letter-spacing="0.4" fill="#6D28D9">B2B ECOSYSTEM</text>
+      <text x="16" y="53" font-family="'Space Grotesk', 'SF Pro Display', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="15.2" font-weight="700" fill="#0F172A">Tjaara Partners Hub</text>
+      <text x="16" y="73" font-family="'Plus Jakarta Sans', 'SF Pro Text', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11.2" font-weight="500" fill="#334155">Vendor platform connecting 3PL</text>
+      <text x="16" y="89" font-family="'Plus Jakarta Sans', 'SF Pro Text', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11.2" font-weight="500" fill="#334155">logistics, payment SDKs &amp; webhooks.</text>
+      
+        <g transform="translate(16, 100)">
+          <rect width="75" height="20" rx="6" fill="#F1F5F9" stroke="#E2E8F0" stroke-width="1" />
+          <text x="37.5" y="13.5" text-anchor="middle" font-family="'JetBrains Mono', 'SF Mono', 'Fira Code', ui-monospace, Menlo, Consolas, monospace" font-size="8.8" font-weight="600" fill="#334155">B2B Portal</text>
+        </g>
+        <g transform="translate(97, 100)">
+          <rect width="63" height="20" rx="6" fill="#F1F5F9" stroke="#E2E8F0" stroke-width="1" />
+          <text x="31.5" y="13.5" text-anchor="middle" font-family="'JetBrains Mono', 'SF Mono', 'Fira Code', ui-monospace, Menlo, Consolas, monospace" font-size="8.8" font-weight="600" fill="#334155">Payments</text>
+        </g>
+        <g transform="translate(166, 100)">
+          <rect width="63" height="20" rx="6" fill="#F1F5F9" stroke="#E2E8F0" stroke-width="1" />
+          <text x="31.5" y="13.5" text-anchor="middle" font-family="'JetBrains Mono', 'SF Mono', 'Fira Code', ui-monospace, Menlo, Consolas, monospace" font-size="8.8" font-weight="600" fill="#334155">Webhooks</text>
+        </g>
+    </g>
+</svg>

@@ -1,277 +1,146 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-label="Mohamed Elnady — Senior React Native &amp; Mobile Architect">
+<svg xmlns="http://www.w3.org/2000/svg" width="896" height="316" viewBox="0 0 896 316" role="img" aria-label="Mohamed Elnady — Senior React Native &amp; Mobile Product Architect">
   <defs>
-    <clipPath id="banner-card-clip-light">
-      <rect x="8" y="8" width="1184" height="304" rx="18" />
-    </clipPath>
-
-    <linearGradient id="light-bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#F8FAFC" />
-      <stop offset="50%" stop-color="#F1F5F9" />
-      <stop offset="100%" stop-color="#FFFFFF" />
+    
+    <linearGradient id="hero-bg-light" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="55%" stop-color="#F8FAFC" />
+      <stop offset="100%" stop-color="#F1F5F9" />
     </linearGradient>
-
-    <radialGradient id="light-aurora-cyan" cx="16%" cy="35%" r="45%">
-      <stop offset="0%" stop-color="#087EA4" stop-opacity="0.12" />
-      <stop offset="60%" stop-color="#38BDF8" stop-opacity="0.04" />
-      <stop offset="100%" stop-color="#F8FAFC" stop-opacity="0" />
-    </radialGradient>
-
-    <radialGradient id="light-aurora-blue" cx="84%" cy="55%" r="48%">
-      <stop offset="0%" stop-color="#0A66C2" stop-opacity="0.12" />
-      <stop offset="60%" stop-color="#6366F1" stop-opacity="0.04" />
+    <linearGradient id="hero-topline-light" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#087EA4" stop-opacity="0" />
+      <stop offset="28%" stop-color="#087EA4" stop-opacity="0.85" />
+      <stop offset="55%" stop-color="#0284C7" stop-opacity="0.9" />
+      <stop offset="78%" stop-color="#059669" stop-opacity="0.7" />
+      <stop offset="100%" stop-color="#059669" stop-opacity="0" />
+    </linearGradient>
+    <radialGradient id="hero-glow-a-light" cx="14%" cy="18%" r="52%">
+      <stop offset="0%" stop-color="#087EA4" stop-opacity="0.08" />
       <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0" />
     </radialGradient>
-
-    <linearGradient id="card-stroke-light" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#087EA4" stop-opacity="0.38" />
-      <stop offset="50%" stop-color="#CBD5E1" stop-opacity="1" />
-      <stop offset="100%" stop-color="#0A66C2" stop-opacity="0.38" />
-    </linearGradient>
-
-    <linearGradient id="title-ink-light" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#0F172A" />
-      <stop offset="45%" stop-color="#1E293B" />
-      <stop offset="78%" stop-color="#087EA4" />
-      <stop offset="100%" stop-color="#0A66C2" />
-    </linearGradient>
-
-    <linearGradient id="pill-fill-light" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.98" />
-      <stop offset="100%" stop-color="#F8FAFC" stop-opacity="0.95" />
-    </linearGradient>
-
-    <linearGradient id="laser-line-light" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#087EA4" stop-opacity="0" />
-      <stop offset="25%" stop-color="#087EA4" stop-opacity="0.7" />
-      <stop offset="50%" stop-color="#0A66C2" stop-opacity="0.9" />
-      <stop offset="75%" stop-color="#087EA4" stop-opacity="0.7" />
-      <stop offset="100%" stop-color="#0A66C2" stop-opacity="0" />
-    </linearGradient>
-
-    <pattern id="blueprint-grid-light" width="40" height="40" patternUnits="userSpaceOnUse">
-      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#087EA4" stroke-width="0.6" stroke-opacity="0.065" />
-      <circle cx="40" cy="0" r="0.9" fill="#087EA4" fill-opacity="0.18" />
+    <radialGradient id="hero-glow-b-light" cx="88%" cy="22%" r="46%">
+      <stop offset="0%" stop-color="#059669" stop-opacity="0.06" />
+      <stop offset="100%" stop-color="#F1F5F9" stop-opacity="0" />
+    </radialGradient>
+    <pattern id="hero-grid-light" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M 32 0 L 0 0 0 32" fill="none" stroke="#087EA4" stroke-width="0.6" stroke-opacity="0.04" />
     </pattern>
-
-    <filter id="soft-shadow-light" x="-15%" y="-15%" width="130%" height="130%">
-      <feDropShadow dx="0" dy="3" stdDeviation="5" flood-color="#0F172A" flood-opacity="0.08" />
-    </filter>
-
+    <linearGradient id="hero-title-light" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0F172A" /><stop offset="60%" stop-color="#1E293B" /><stop offset="100%" stop-color="#087EA4" />
+    </linearGradient>
+    <clipPath id="hero-clip-light">
+      <rect x="1" y="1" width="894" height="314" rx="20" />
+    </clipPath>
     <style>
-      @keyframes floatYLight {
-        0%, 100% { transform: translateY(0px); }
-        50% { transform: translateY(-5px); }
+      @keyframes statusPulse-light {
+        0%, 100% { opacity: 0.3; transform: scale(1); }
+        50% { opacity: 0.85; transform: scale(1.9); }
       }
-      @keyframes floatReverseLight {
-        0%, 100% { transform: translateY(0px); }
-        50% { transform: translateY(4px); }
+      @keyframes scanBar-light {
+        0%, 100% { opacity: 0.55; }
+        50% { opacity: 1; }
       }
-      @keyframes spinCWLight {
-        from { transform: rotate(0deg); }
-        to { transform: rotate(360deg); }
+      .pulse-ring-light {
+        transform-box: fill-box;
+        transform-origin: center;
+        animation: statusPulse-light 2.6s ease-in-out infinite;
       }
-      @keyframes spinCCWLight {
-        from { transform: rotate(360deg); }
-        to { transform: rotate(0deg); }
+      .hud-live-light {
+        animation: scanBar-light 3s ease-in-out infinite;
       }
-      @keyframes dataFlowLight {
-        0% { stroke-dashoffset: 800; }
-        100% { stroke-dashoffset: 0; }
-      }
-      @keyframes barScale1Light {
-        0%, 100% { transform: scaleX(0.74); }
-        50% { transform: scaleX(1.0); }
-      }
-      @keyframes barScale2Light {
-        0%, 100% { transform: scaleX(1.0); }
-        50% { transform: scaleX(0.62); }
-      }
-      @keyframes barScale3Light {
-        0%, 100% { transform: scaleX(0.54); }
-        50% { transform: scaleX(0.92); }
-      }
-
-      .float-main { animation: floatYLight 5.5s ease-in-out infinite; }
-      .float-alt { animation: floatReverseLight 4.5s ease-in-out infinite; }
-      .orbit-cw { animation: spinCWLight 24s linear infinite; transform-origin: 126px 158px; }
-      .orbit-ccw { animation: spinCCWLight 19s linear infinite; transform-origin: 126px 158px; }
-      .orbit-slow { animation: spinCWLight 32s linear infinite; transform-origin: 126px 158px; }
-      .stream-fast { stroke-dasharray: 90, 310; animation: dataFlowLight 5.5s linear infinite; }
-      .stream-slow { stroke-dasharray: 60, 340; animation: dataFlowLight 8s linear infinite; }
-      .code-bar { transform-box: fill-box; transform-origin: left center; }
-      .code-line-1 { animation: barScale1Light 3.2s ease-in-out infinite; }
-      .code-line-2 { animation: barScale2Light 2.6s ease-in-out infinite; }
-      .code-line-3 { animation: barScale3Light 3.8s ease-in-out infinite; }
-
       @media (prefers-reduced-motion: reduce) {
-        .float-main, .float-alt, .orbit-cw, .orbit-ccw, .orbit-slow,
-        .stream-fast, .stream-slow, .code-line-1, .code-line-2, .code-line-3 {
-          animation: none !important;
-        }
+        .pulse-ring-light, .hud-live-light { animation: none !important; }
       }
     </style>
   </defs>
 
-  <!-- 1. CLIPPED CARD CANVAS -->
-  <g clip-path="url(#banner-card-clip-light)">
-    <rect x="8" y="8" width="1184" height="304" fill="url(#light-bg)" />
-    <rect x="8" y="8" width="1184" height="304" fill="url(#light-aurora-cyan)" />
-    <rect x="8" y="8" width="1184" height="304" fill="url(#light-aurora-blue)" />
-    <rect x="8" y="8" width="1184" height="304" fill="url(#blueprint-grid-light)" />
+  <g clip-path="url(#hero-clip-light)">
+    <rect x="1" y="1" width="894" height="314" fill="url(#hero-bg-light)" />
+    <rect x="1" y="1" width="894" height="314" fill="url(#hero-glow-a-light)" />
+    <rect x="1" y="1" width="894" height="314" fill="url(#hero-glow-b-light)" />
+    <rect x="1" y="1" width="894" height="314" fill="url(#hero-grid-light)" />
+  </g>
 
-    <g opacity="0.14" stroke="#087EA4" stroke-width="0.7">
-      <line x1="600" y1="168" x2="120" y2="312" />
-      <line x1="600" y1="168" x2="290" y2="312" />
-      <line x1="600" y1="168" x2="445" y2="312" />
-      <line x1="600" y1="168" x2="600" y2="312" />
-      <line x1="600" y1="168" x2="755" y2="312" />
-      <line x1="600" y1="168" x2="910" y2="312" />
-      <line x1="600" y1="168" x2="1080" y2="312" />
+  <rect x="1" y="1" width="894" height="314" rx="20" fill="none" stroke="#CBD5E1" stroke-width="1.3" />
+  <line x1="48" y1="1.5" x2="848" y2="1.5" stroke="url(#hero-topline-light)" stroke-width="1.8" opacity="0.72" />
+
+  <!-- Top Status Row -->
+  <g transform="translate(28, 22)">
+    <rect width="348" height="26" rx="13" fill="#ECFDF5" stroke="#A7F3D0" stroke-width="1" />
+    <circle class="pulse-ring-light" cx="16" cy="13" r="4" fill="#059669" />
+    <circle cx="16" cy="13" r="3.5" fill="#059669" />
+    <text x="28" y="16.5" font-family="'JetBrains Mono', 'SF Mono', 'Fira Code', ui-monospace, Menlo, Consolas, monospace" font-size="9.6" font-weight="700" letter-spacing="0.7" fill="#059669">OPEN TO SENIOR / STAFF ARCHITECT ROLES</text>
+  </g>
+
+  <g transform="translate(662, 22)">
+    <rect width="206" height="26" rx="13" fill="#F0F9FF" stroke="#BAE6FD" stroke-width="1" />
+    <circle cx="15" cy="13" r="3" fill="#087EA4" />
+    <text x="26" y="16.5" font-family="'JetBrains Mono', 'SF Mono', 'Fira Code', ui-monospace, Menlo, Consolas, monospace" font-size="9.5" font-weight="600" letter-spacing="0.5" fill="#334155">CAIRO · REMOTE WORLDWIDE</text>
+  </g>
+
+  <!-- Left Editorial Identity -->
+  <text x="30" y="106" font-family="'Space Grotesk', 'SF Pro Display', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="44" font-weight="800" letter-spacing="-1.2" fill="url(#hero-title-light)">Mohamed Elnady</text>
+  <text x="30" y="135" font-family="'Plus Jakarta Sans', 'SF Pro Text', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="16" font-weight="700" fill="#087EA4">Senior React Native &amp; Mobile Product Architect</text>
+  <text x="30" y="164" font-family="'Plus Jakarta Sans', 'SF Pro Text', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="500" fill="#334155">8+ years turning complex product domains into resilient cross-platform &amp; native apps.</text>
+  <text x="30" y="186" font-family="'JetBrains Mono', 'SF Mono', 'Fira Code', ui-monospace, Menlo, Consolas, monospace" font-size="11.2" font-weight="600" fill="#0F172A">Expo SDK 58 <tspan fill="#087EA4">·</tspan> New Arch (JSI/Fabric) <tspan fill="#087EA4">·</tspan> Swift 6 <tspan fill="#087EA4">·</tspan> Kotlin 2.2 <tspan fill="#087EA4">·</tspan> True RTL</text>
+
+  <!-- Right Runtime Architecture Mini-Bento -->
+  <g>
+    <rect x="592" y="62" width="276" height="142" rx="14" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="1.1" />
+    <text x="608" y="83" font-family="'JetBrains Mono', 'SF Mono', 'Fira Code', ui-monospace, Menlo, Consolas, monospace" font-size="9.5" font-weight="700" letter-spacing="0.8" fill="#64748B">ARCHITECTURE STACK</text>
+    <rect x="780" y="70" width="74" height="18" rx="9" fill="#ECFDF5" stroke="#A7F3D0" stroke-width="0.9" />
+    <text class="hud-live-light" x="817" y="82.2" text-anchor="middle" font-family="'JetBrains Mono', 'SF Mono', 'Fira Code', ui-monospace, Menlo, Consolas, monospace" font-size="8.8" font-weight="700" fill="#059669">8.3ms · 120Hz</text>
+    <line x1="606" y1="94" x2="854" y2="94" stroke="#E2E8F0" stroke-width="1" />
+    
+    <g transform="translate(606, 102)">
+      <rect width="246" height="25" rx="7" fill="#F1F5F9" stroke="#E2E8F0" stroke-width="1" />
+      <circle cx="13" cy="12.5" r="3.2" fill="#087EA4" />
+      <text x="23" y="16.2" font-family="'Plus Jakarta Sans', 'SF Pro Text', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10.8" font-weight="600" fill="#0F172A">UI Thread</text>
+      <text x="236" y="16.2" text-anchor="end" font-family="'JetBrains Mono', 'SF Mono', 'Fira Code', ui-monospace, Menlo, Consolas, monospace" font-size="9.8" font-weight="600" fill="#334155">Reanimated 4 · Skia</text>
     </g>
-
-    <g fill="none" stroke-linecap="round">
-      <path d="M 0 64 Q 280 120 560 72 T 1200 58" stroke="#087EA4" stroke-width="1" opacity="0.10" />
-      <path class="stream-fast" d="M 0 64 Q 280 120 560 72 T 1200 58" stroke="#087EA4" stroke-width="1.8" opacity="0.45" />
-
-      <path d="M 0 250 Q 340 198 660 238 T 1200 212" stroke="#0A66C2" stroke-width="1" opacity="0.10" />
-      <path class="stream-slow" d="M 0 250 Q 340 198 660 238 T 1200 212" stroke="#0A66C2" stroke-width="1.6" opacity="0.40" />
+    <g transform="translate(606, 134)">
+      <rect width="246" height="25" rx="7" fill="#F1F5F9" stroke="#E2E8F0" stroke-width="1" />
+      <circle cx="13" cy="12.5" r="3.2" fill="#6D28D9" />
+      <text x="23" y="16.2" font-family="'Plus Jakarta Sans', 'SF Pro Text', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10.8" font-weight="600" fill="#0F172A">Domain &amp; Sync</text>
+      <text x="236" y="16.2" text-anchor="end" font-family="'JetBrains Mono', 'SF Mono', 'Fira Code', ui-monospace, Menlo, Consolas, monospace" font-size="9.8" font-weight="600" fill="#334155">Clean Arch · MMKV</text>
+    </g>
+    <g transform="translate(606, 166)">
+      <rect width="246" height="25" rx="7" fill="#F1F5F9" stroke="#E2E8F0" stroke-width="1" />
+      <circle cx="13" cy="12.5" r="3.2" fill="#059669" />
+      <text x="23" y="16.2" font-family="'Plus Jakarta Sans', 'SF Pro Text', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10.8" font-weight="600" fill="#0F172A">Native Runtime</text>
+      <text x="236" y="16.2" text-anchor="end" font-family="'JetBrains Mono', 'SF Mono', 'Fira Code', ui-monospace, Menlo, Consolas, monospace" font-size="9.8" font-weight="600" fill="#334155">Swift 6 · Kotlin 2.2</text>
     </g>
   </g>
 
-  <rect x="8.75" y="8.75" width="1182.5" height="302.5" rx="18" fill="none" stroke="url(#card-stroke-light)" stroke-width="1.4" />
-  <line x1="280" y1="9.2" x2="920" y2="9.2" stroke="url(#laser-line-light)" stroke-width="1.5" opacity="0.7" />
-
-  <!-- 2. LEFT ENGINE (x: 44..196): REACT NATIVE QUANTUM CORE -->
-  <g class="float-main">
-    <circle cx="126" cy="158" r="44" fill="#087EA4" opacity="0.06" />
-    <circle cx="126" cy="158" r="70" fill="none" stroke="#087EA4" stroke-width="0.8" opacity="0.22" stroke-dasharray="5 7" />
-
-    <g>
-      <ellipse class="orbit-cw" cx="126" cy="158" rx="66" ry="25" fill="none" stroke="#087EA4" stroke-width="1.7" opacity="0.85" stroke-dasharray="96 14 34 12" />
+  <!-- 5-Tile Executive KPI Dock -->
+  
+    <g transform="translate(28, 224)">
+      <rect width="160" height="68" rx="12" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1" />
+      <line x1="18" y1="0.8" x2="142" y2="0.8" stroke="#087EA4" stroke-width="1.4" stroke-opacity="0.65" />
+      <text x="16" y="31" font-family="'Space Grotesk', 'SF Pro Display', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="20" font-weight="800" letter-spacing="-0.5" fill="#0F172A">8+ Yrs</text>
+      <text x="16" y="51" font-family="'JetBrains Mono', 'SF Mono', 'Fira Code', ui-monospace, Menlo, Consolas, monospace" font-size="8.8" font-weight="600" letter-spacing="0.6" fill="#64748B">MOBILE ARCHITECTURE</text>
     </g>
-    <g transform="rotate(60 126 158)">
-      <ellipse class="orbit-ccw" cx="126" cy="158" rx="66" ry="25" fill="none" stroke="#0A66C2" stroke-width="1.5" opacity="0.72" stroke-dasharray="72 16 24 12" />
+    <g transform="translate(198, 224)">
+      <rect width="160" height="68" rx="12" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1" />
+      <line x1="18" y1="0.8" x2="142" y2="0.8" stroke="#059669" stroke-width="1.4" stroke-opacity="0.65" />
+      <text x="16" y="31" font-family="'Space Grotesk', 'SF Pro Display', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="20" font-weight="800" letter-spacing="-0.5" fill="#0F172A">15+ Apps</text>
+      <text x="16" y="51" font-family="'JetBrains Mono', 'SF Mono', 'Fira Code', ui-monospace, Menlo, Consolas, monospace" font-size="8.8" font-weight="600" letter-spacing="0.6" fill="#64748B">APP STORE &amp; PLAY</text>
     </g>
-    <g transform="rotate(120 126 158)">
-      <ellipse class="orbit-slow" cx="126" cy="158" rx="66" ry="25" fill="none" stroke="#059669" stroke-width="1.6" opacity="0.68" stroke-dasharray="84 16" />
+    <g transform="translate(368, 224)">
+      <rect width="160" height="68" rx="12" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1" />
+      <line x1="18" y1="0.8" x2="142" y2="0.8" stroke="#0284C7" stroke-width="1.4" stroke-opacity="0.65" />
+      <text x="16" y="31" font-family="'Space Grotesk', 'SF Pro Display', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="20" font-weight="800" letter-spacing="-0.5" fill="#0F172A">60/120 Hz</text>
+      <text x="16" y="51" font-family="'JetBrains Mono', 'SF Mono', 'Fira Code', ui-monospace, Menlo, Consolas, monospace" font-size="8.8" font-weight="600" letter-spacing="0.6" fill="#64748B">JSI &amp; WORKLET UI</text>
     </g>
-
-    <circle cx="126" cy="158" r="9" fill="#087EA4" />
-    <circle cx="126" cy="158" r="4" fill="#FFFFFF" />
-
-    <g class="float-alt" filter="url(#soft-shadow-light)">
-      <rect x="44" y="34" width="108" height="24" rx="7" fill="url(#pill-fill-light)" stroke="#CBD5E1" stroke-width="1" />
-      <circle cx="57" cy="46" r="3" fill="#087EA4" />
-      <text x="67" y="49.5" font-family="'SF Mono', 'Fira Code', Menlo, monospace" font-size="9.5" font-weight="700" fill="#0F172A">JSI · FABRIC</text>
+    <g transform="translate(538, 224)">
+      <rect width="160" height="68" rx="12" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1" />
+      <line x1="18" y1="0.8" x2="142" y2="0.8" stroke="#6D28D9" stroke-width="1.4" stroke-opacity="0.65" />
+      <text x="16" y="31" font-family="'Space Grotesk', 'SF Pro Display', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="20" font-weight="800" letter-spacing="-0.5" fill="#0F172A">865+ Tests</text>
+      <text x="16" y="51" font-family="'JetBrains Mono', 'SF Mono', 'Fira Code', ui-monospace, Menlo, Consolas, monospace" font-size="8.8" font-weight="600" letter-spacing="0.6" fill="#64748B">99%+ QA COVERAGE</text>
     </g>
-
-    <g class="float-alt" filter="url(#soft-shadow-light)">
-      <rect x="44" y="258" width="124" height="24" rx="7" fill="url(#pill-fill-light)" stroke="#CBD5E1" stroke-width="1" />
-      <circle cx="57" cy="270" r="3" fill="#059669" />
-      <text x="67" y="273.5" font-family="'SF Mono', 'Fira Code', Menlo, monospace" font-size="9.5" font-weight="700" fill="#0F172A">NATIVE BRIDGE</text>
+    <g transform="translate(708, 224)">
+      <rect width="160" height="68" rx="12" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1" />
+      <line x1="18" y1="0.8" x2="142" y2="0.8" stroke="#B45309" stroke-width="1.4" stroke-opacity="0.65" />
+      <text x="16" y="31" font-family="'Space Grotesk', 'SF Pro Display', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="20" font-weight="800" letter-spacing="-0.5" fill="#0F172A">EN · AR</text>
+      <text x="16" y="51" font-family="'JetBrains Mono', 'SF Mono', 'Fira Code', ui-monospace, Menlo, Consolas, monospace" font-size="8.8" font-weight="600" letter-spacing="0.6" fill="#64748B">ZERO-SHIFT RTL</text>
     </g>
-  </g>
-
-  <!-- 3. RIGHT ENGINE (x: 978..1164): MOBILE TELEMETRY HUD -->
-  <g class="float-main">
-    <rect x="1020" y="48" width="104" height="196" rx="18" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1.6" filter="url(#soft-shadow-light)" />
-    <rect x="1025" y="53" width="94" height="186" rx="14" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="0.8" />
-
-    <rect x="1054" y="59" width="36" height="6.5" rx="3.2" fill="#0F172A" />
-    <circle cx="1084" cy="62.2" r="1.6" fill="#10B981" />
-
-    <rect x="1034" y="75" width="42" height="4.5" rx="2.2" fill="#087EA4" opacity="0.9" />
-    <rect x="1034" y="83" width="28" height="3" rx="1.5" fill="#94A3B8" />
-    <circle cx="1104" cy="79" r="5.5" fill="#E0F2FE" stroke="#087EA4" stroke-width="1" />
-
-    <rect x="1032" y="96" width="80" height="54" rx="8" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="0.9" />
-    <circle cx="1041" cy="106" r="2.2" fill="#EF4444" />
-    <circle cx="1048" cy="106" r="2.2" fill="#F59E0B" />
-    <circle cx="1055" cy="106" r="2.2" fill="#10B981" />
-
-    <rect class="code-bar code-line-1" x="1040" y="117" width="54" height="3.8" rx="1.9" fill="#087EA4" />
-    <rect class="code-bar code-line-2" x="1040" y="126" width="54" height="3.8" rx="1.9" fill="#0A66C2" opacity="0.78" />
-    <rect class="code-bar code-line-3" x="1040" y="135" width="46" height="3.8" rx="1.9" fill="#7C3AED" opacity="0.82" />
-
-    <rect x="1032" y="157" width="80" height="40" rx="8" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1" />
-    <polyline points="1038,187 1051,178 1063,182 1077,168 1091,172 1104,163" fill="none" stroke="#059669" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" />
-    <circle cx="1104" cy="163" r="2.8" fill="#059669" />
-
-    <rect x="1034" y="205" width="76" height="15" rx="5.5" fill="#087EA4" />
-    <rect x="1056" y="211" width="32" height="2.8" rx="1.4" fill="#FFFFFF" opacity="0.95" />
-    <rect x="1054" y="229" width="36" height="3" rx="1.5" fill="#94A3B8" />
-
-    <g class="float-alt" filter="url(#soft-shadow-light)">
-      <rect x="978" y="76" width="78" height="24" rx="7" fill="url(#pill-fill-light)" stroke="#059669" stroke-width="1.1" />
-      <circle cx="990" cy="88" r="3" fill="#059669" />
-      <text x="999" y="91.5" font-family="'SF Mono', 'Fira Code', Menlo, monospace" font-size="9.5" font-weight="700" fill="#065F46">120Hz UI</text>
-    </g>
-
-    <g class="float-alt" filter="url(#soft-shadow-light)">
-      <rect x="1068" y="218" width="96" height="24" rx="7" fill="url(#pill-fill-light)" stroke="#087EA4" stroke-width="1.1" />
-      <path d="M 1082.5 223.5 L 1077.5 230.5 H 1081.5 L 1080.5 236.5 L 1086 229.2 H 1082 L 1082.5 223.5 Z" fill="#087EA4" />
-      <text x="1091" y="233.5" font-family="'SF Mono', 'Fira Code', Menlo, monospace" font-size="9.5" font-weight="700" fill="#087EA4">15+ LIVE</text>
-    </g>
-  </g>
-
-  <!-- 4. CENTERPIECE HERO TYPOGRAPHY (Safe Zone x: 248..952) -->
-  <g text-anchor="middle" font-family="'SF Pro Display', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif">
-    <g transform="translate(600, 48)" filter="url(#soft-shadow-light)">
-      <rect x="-195" y="-15" width="390" height="30" rx="15" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1.2" />
-      <circle cx="-171" cy="0" r="4" fill="#059669">
-        <animate attributeName="r" values="4;12" dur="2.2s" repeatCount="indefinite" />
-        <animate attributeName="opacity" values="0.85;0" dur="2.2s" repeatCount="indefinite" />
-      </circle>
-      <circle cx="-171" cy="0" r="4.2" fill="#059669" />
-      <text x="10" y="3.8" font-size="10.5" font-weight="700" fill="#0F172A" letter-spacing="1.8">
-        SENIOR MOBILE ARCHITECT <tspan fill="#087EA4">·</tspan> 8+ YEARS EXP
-      </text>
-    </g>
-
-    <text x="600" y="126" font-size="54" font-weight="800" fill="url(#title-ink-light)" letter-spacing="-0.8">
-      Mohamed Elnady
-    </text>
-
-    <text x="600" y="162" font-size="16" font-weight="500" fill="#475569" letter-spacing="0.4">
-      Engineering High-Scale Mobile Ecosystems <tspan fill="#087EA4" font-weight="700">·</tspan>
-      <tspan fill="#0F172A" font-weight="600">React Native</tspan>
-      <tspan fill="#087EA4" font-weight="700">·</tspan>
-      <tspan fill="#0F172A" font-weight="600">Swift &amp; Kotlin</tspan>
-    </text>
-
-    <line x1="430" y1="186" x2="770" y2="186" stroke="url(#laser-line-light)" stroke-width="1" opacity="0.45" />
-    <circle cx="600" cy="186" r="2.4" fill="#087EA4" />
-
-    <g transform="translate(600, 210)" filter="url(#soft-shadow-light)">
-      <g transform="translate(-344, 0)">
-        <rect x="0" y="0" width="124" height="34" rx="9" fill="url(#pill-fill-light)" stroke="#CBD5E1" stroke-width="1.2" />
-        <circle cx="15" cy="17" r="3.4" fill="#087EA4" />
-        <text x="70" y="21.2" font-size="12" font-weight="700" fill="#0F172A">React Native</text>
-      </g>
-
-      <g transform="translate(-208, 0)">
-        <rect x="0" y="0" width="110" height="34" rx="9" fill="url(#pill-fill-light)" stroke="#CBD5E1" stroke-width="1.2" />
-        <circle cx="15" cy="17" r="3.4" fill="#0A66C2" />
-        <text x="63" y="21.2" font-size="12" font-weight="700" fill="#0F172A">iOS · Swift</text>
-      </g>
-
-      <g transform="translate(-86, 0)">
-        <rect x="0" y="0" width="138" height="34" rx="9" fill="url(#pill-fill-light)" stroke="#CBD5E1" stroke-width="1.2" />
-        <circle cx="15" cy="17" r="3.4" fill="#059669" />
-        <text x="77" y="21.2" font-size="12" font-weight="700" fill="#0F172A">Android · Kotlin</text>
-      </g>
-
-      <g transform="translate(64, 0)">
-        <rect x="0" y="0" width="106" height="34" rx="9" fill="url(#pill-fill-light)" stroke="#CBD5E1" stroke-width="1.2" />
-        <circle cx="15" cy="17" r="3.4" fill="#D97706" />
-        <text x="61" y="21.2" font-size="12" font-weight="700" fill="#0F172A">Expo SDK</text>
-      </g>
-
-      <g transform="translate(182, 0)">
-        <rect x="0" y="0" width="162" height="34" rx="9" fill="url(#pill-fill-light)" stroke="#CBD5E1" stroke-width="1.2" />
-        <circle cx="15" cy="17" r="3.4" fill="#7C3AED" />
-        <text x="89" y="21.2" font-size="12" font-weight="700" fill="#0F172A">Clean Architecture</text>
-      </g>
-    </g>
-  </g>
 </svg>

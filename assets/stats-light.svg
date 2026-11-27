@@ -1,87 +1,95 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="495" height="195" viewBox="0 0 495 195" role="img" aria-label="GitHub Telemetry for muhammedelnady">
+<svg xmlns="http://www.w3.org/2000/svg" width="442" height="196" viewBox="0 0 442 196" role="img" aria-label="GitHub Telemetry for muhammedelnady">
   <defs>
+    
     <linearGradient id="stats-bg-light" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#F8FAFC" />
-      <stop offset="100%" stop-color="#FFFFFF" />
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="55%" stop-color="#F8FAFC" />
+      <stop offset="100%" stop-color="#F1F5F9" />
     </linearGradient>
-    <linearGradient id="stats-top-light" x1="0%" y1="0%" x2="100%" y2="0%">
+    <linearGradient id="stats-topline-light" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#087EA4" stop-opacity="0" />
-      <stop offset="30%" stop-color="#087EA4" stop-opacity="0.85" />
-      <stop offset="70%" stop-color="#0A66C2" stop-opacity="0.85" />
-      <stop offset="100%" stop-color="#0A66C2" stop-opacity="0" />
+      <stop offset="28%" stop-color="#087EA4" stop-opacity="0.85" />
+      <stop offset="55%" stop-color="#0284C7" stop-opacity="0.9" />
+      <stop offset="78%" stop-color="#059669" stop-opacity="0.7" />
+      <stop offset="100%" stop-color="#059669" stop-opacity="0" />
     </linearGradient>
+    <radialGradient id="stats-glow-a-light" cx="14%" cy="18%" r="52%">
+      <stop offset="0%" stop-color="#087EA4" stop-opacity="0.08" />
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0" />
+    </radialGradient>
+    <radialGradient id="stats-glow-b-light" cx="88%" cy="22%" r="46%">
+      <stop offset="0%" stop-color="#059669" stop-opacity="0.06" />
+      <stop offset="100%" stop-color="#F1F5F9" stop-opacity="0" />
+    </radialGradient>
+    <pattern id="stats-grid-light" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M 32 0 L 0 0 0 32" fill="none" stroke="#087EA4" stroke-width="0.6" stroke-opacity="0.04" />
+    </pattern>
     <linearGradient id="ring-grad-light" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#087EA4" />
       <stop offset="100%" stop-color="#059669" />
     </linearGradient>
     <style>
       @keyframes ringSweep-light {
-        from { stroke-dashoffset: 251.33; }
-        to { stroke-dashoffset: 41.42; }
+        from { stroke-dashoffset: 238.76; }
+        to { stroke-dashoffset: 38.49; }
       }
       .ring-progress-light {
-        stroke-dasharray: 251.33;
-        stroke-dashoffset: 41.42;
+        stroke-dasharray: 238.76;
+        stroke-dashoffset: 38.49;
         animation: ringSweep-light 1.1s cubic-bezier(0.22, 1, 0.36, 1) forwards;
       }
       @media (prefers-reduced-motion: reduce) {
-        .ring-progress-light { animation: none; stroke-dashoffset: 41.42; }
+        .ring-progress-light { animation: none; stroke-dashoffset: 38.49; }
       }
     </style>
   </defs>
 
-  <rect x="0.75" y="0.75" width="493.5" height="193.5" rx="14" fill="url(#stats-bg-light)" stroke="#CBD5E1" stroke-width="1.2" />
-  <line x1="28" y1="1.2" x2="467" y2="1.2" stroke="url(#stats-top-light)" stroke-width="1.5" opacity="0.65" />
+  <rect x="0.75" y="0.75" width="440.5" height="194.5" rx="16" fill="url(#stats-bg-light)" stroke="#CBD5E1" stroke-width="1.2" />
+  <line x1="28" y1="1.3" x2="414" y2="1.3" stroke="url(#stats-topline-light)" stroke-width="1.5" opacity="0.72" />
 
-  <!-- Header -->
-  <g transform="translate(22, 22)">
-    <g transform="scale(0.76)">
-      <polyline points="2 12 6 12 9 4 15 20 18 12 22 12" fill="none" stroke="#087EA4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+  <g transform="translate(20, 20)">
+    <g transform="scale(0.74)">
+      <polyline points="2 12 6 12 9 4 15 20 18 12 22 12" fill="none" stroke="#087EA4" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round" />
     </g>
-    <text x="25" y="13.5" font-family="'SF Pro Display', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="14.5" font-weight="700" fill="#0F172A">GitHub Telemetry</text>
+    <text x="24" y="13.5" font-family="'Space Grotesk', 'SF Pro Display', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="14" font-weight="700" fill="#0F172A">GitHub Telemetry</text>
   </g>
-  <rect x="358" y="17" width="115" height="22" rx="11" fill="#EFF6FF" stroke="#BFDBFE" stroke-width="1" />
-  <text x="415.5" y="31.5" text-anchor="middle" font-family="'SF Mono', 'JetBrains Mono', 'Fira Code', ui-monospace, Menlo, monospace" font-size="10" font-weight="600" fill="#087EA4">@muhammedelnady</text>
+  <rect x="306" y="16" width="116" height="22" rx="11" fill="#F0F9FF" stroke="#BAE6FD" stroke-width="1" />
+  <text x="364" y="30.5" text-anchor="middle" font-family="'JetBrains Mono', 'SF Mono', 'Fira Code', ui-monospace, Menlo, Consolas, monospace" font-size="9.5" font-weight="600" fill="#087EA4">@muhammedelnady</text>
 
-  <line x1="22" y1="47" x2="473" y2="47" stroke="#CBD5E1" stroke-width="1" opacity="0.65" />
-
-  <!-- Metrics Column -->
+  <line x1="20" y1="46" x2="422" y2="46" stroke="#E2E8F0" stroke-width="1" />
   
-  <g transform="translate(22, 58)">
-    <g transform="scale(0.62)"><path d="M13 2L4.5 13.5H11.5L10.5 22L19.5 10.5H12.5L13 2Z" fill="none" stroke="#087EA4" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></g>
-    <text x="23" y="11" font-family="'SF Pro Text', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="12" font-weight="500" fill="#475569">Contributions (12m)</text>
-    <text x="298" y="11" text-anchor="end" font-family="'SF Mono', 'JetBrains Mono', 'Fira Code', ui-monospace, Menlo, monospace" font-size="12.5" font-weight="700" fill="#0F172A">2,088</text>
+  <g transform="translate(20, 58)">
+    <g transform="scale(0.62)"><path d="M13 2L4.5 13.5H11.5L10.5 22L19.5 10.5H12.5L13 2Z" fill="none" stroke="#087EA4" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"/></g>
+    <text x="22" y="11" font-family="'Plus Jakarta Sans', 'SF Pro Text', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11.8" font-weight="500" fill="#334155">Contributions (12m)</text>
+    <text x="270" y="11" text-anchor="end" font-family="'JetBrains Mono', 'SF Mono', 'Fira Code', ui-monospace, Menlo, Consolas, monospace" font-size="12.2" font-weight="700" fill="#0F172A">2,097</text>
   </g>
-  <g transform="translate(22, 83)">
-    <g transform="scale(0.62)"><circle cx="18" cy="18" r="2.5" fill="none" stroke="#0A66C2" stroke-width="1.8"/><circle cx="6" cy="6" r="2.5" fill="none" stroke="#0A66C2" stroke-width="1.8"/><path d="M13 6H16.5C17.3 6 18 6.7 18 7.5V15.5M6 8.5V21" fill="none" stroke="#0A66C2" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></g>
-    <text x="23" y="11" font-family="'SF Pro Text', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="12" font-weight="500" fill="#475569">Pull Requests</text>
-    <text x="298" y="11" text-anchor="end" font-family="'SF Mono', 'JetBrains Mono', 'Fira Code', ui-monospace, Menlo, monospace" font-size="12.5" font-weight="700" fill="#0F172A">97</text>
+  <g transform="translate(20, 83)">
+    <g transform="scale(0.62)"><circle cx="18" cy="18" r="2.5" fill="none" stroke="#0284C7" stroke-width="1.9"/><circle cx="6" cy="6" r="2.5" fill="none" stroke="#0284C7" stroke-width="1.9"/><path d="M13 6H16.5C17.3 6 18 6.7 18 7.5V15.5M6 8.5V21" fill="none" stroke="#0284C7" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"/></g>
+    <text x="22" y="11" font-family="'Plus Jakarta Sans', 'SF Pro Text', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11.8" font-weight="500" fill="#334155">Pull Requests Merged</text>
+    <text x="270" y="11" text-anchor="end" font-family="'JetBrains Mono', 'SF Mono', 'Fira Code', ui-monospace, Menlo, Consolas, monospace" font-size="12.2" font-weight="700" fill="#0F172A">342</text>
   </g>
-  <g transform="translate(22, 108)">
-    <g transform="scale(0.62)"><circle cx="12" cy="12" r="3" fill="none" stroke="#059669" stroke-width="1.8"/><line x1="3" y1="12" x2="9" y2="12" stroke="#059669" stroke-width="1.8" stroke-linecap="round"/><line x1="15" y1="12" x2="21" y2="12" stroke="#059669" stroke-width="1.8" stroke-linecap="round"/></g>
-    <text x="23" y="11" font-family="'SF Pro Text', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="12" font-weight="500" fill="#475569">Public Commits (12m)</text>
-    <text x="298" y="11" text-anchor="end" font-family="'SF Mono', 'JetBrains Mono', 'Fira Code', ui-monospace, Menlo, monospace" font-size="12.5" font-weight="700" fill="#0F172A">188</text>
+  <g transform="translate(20, 108)">
+    <g transform="scale(0.62)"><circle cx="12" cy="12" r="3" fill="none" stroke="#059669" stroke-width="1.9"/><line x1="3" y1="12" x2="9" y2="12" stroke="#059669" stroke-width="1.9" stroke-linecap="round"/><line x1="15" y1="12" x2="21" y2="12" stroke="#059669" stroke-width="1.9" stroke-linecap="round"/></g>
+    <text x="22" y="11" font-family="'Plus Jakarta Sans', 'SF Pro Text', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11.8" font-weight="500" fill="#334155">Public Commits (12m)</text>
+    <text x="270" y="11" text-anchor="end" font-family="'JetBrains Mono', 'SF Mono', 'Fira Code', ui-monospace, Menlo, Consolas, monospace" font-size="12.2" font-weight="700" fill="#0F172A">197</text>
   </g>
-  <g transform="translate(22, 133)">
-    <g transform="scale(0.62)"><polygon points="12 2.5 14.9 8.4 21.4 9.3 16.7 13.9 17.8 20.4 12 17.3 6.2 20.4 7.3 13.9 2.6 9.3 9.1 8.4 12 2.5" fill="none" stroke="#D97706" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></g>
-    <text x="23" y="11" font-family="'SF Pro Text', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="12" font-weight="500" fill="#475569">Stars Earned</text>
-    <text x="298" y="11" text-anchor="end" font-family="'SF Mono', 'JetBrains Mono', 'Fira Code', ui-monospace, Menlo, monospace" font-size="12.5" font-weight="700" fill="#0F172A">9</text>
+  <g transform="translate(20, 133)">
+    <g transform="scale(0.62)"><polygon points="12 2.5 14.9 8.4 21.4 9.3 16.7 13.9 17.8 20.4 12 17.3 6.2 20.4 7.3 13.9 2.6 9.3 9.1 8.4 12 2.5" fill="none" stroke="#B45309" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"/></g>
+    <text x="22" y="11" font-family="'Plus Jakarta Sans', 'SF Pro Text', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11.8" font-weight="500" fill="#334155">Stars Earned</text>
+    <text x="270" y="11" text-anchor="end" font-family="'JetBrains Mono', 'SF Mono', 'Fira Code', ui-monospace, Menlo, Consolas, monospace" font-size="12.2" font-weight="700" fill="#0F172A">9</text>
   </g>
-  <g transform="translate(22, 158)">
-    <g transform="scale(0.62)"><path d="M4 19.5V5.5C4 4.4 4.9 3.5 6 3.5H19V20.5H6C4.9 20.5 4 19.6 4 19.5Z" fill="none" stroke="#7C3AED" stroke-width="1.8" stroke-linejoin="round"/><path d="M4 17.5C4 16.4 4.9 15.5 6 15.5H19" fill="none" stroke="#7C3AED" stroke-width="1.8" stroke-linecap="round"/></g>
-    <text x="23" y="11" font-family="'SF Pro Text', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="12" font-weight="500" fill="#475569">Public Repositories</text>
-    <text x="298" y="11" text-anchor="end" font-family="'SF Mono', 'JetBrains Mono', 'Fira Code', ui-monospace, Menlo, monospace" font-size="12.5" font-weight="700" fill="#0F172A">7</text>
+  <g transform="translate(20, 158)">
+    <g transform="scale(0.62)"><path d="M4 19.5V5.5C4 4.4 4.9 3.5 6 3.5H19V20.5H6C4.9 20.5 4 19.6 4 19.5Z" fill="none" stroke="#6D28D9" stroke-width="1.9" stroke-linejoin="round"/><path d="M4 17.5C4 16.4 4.9 15.5 6 15.5H19" fill="none" stroke="#6D28D9" stroke-width="1.9" stroke-linecap="round"/></g>
+    <text x="22" y="11" font-family="'Plus Jakarta Sans', 'SF Pro Text', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11.8" font-weight="500" fill="#334155">Flagship Public Repos</text>
+    <text x="270" y="11" text-anchor="end" font-family="'JetBrains Mono', 'SF Mono', 'Fira Code', ui-monospace, Menlo, Consolas, monospace" font-size="12.2" font-weight="700" fill="#0F172A">7</text>
   </g>
+  <line x1="308" y1="58" x2="308" y2="178" stroke="#E2E8F0" stroke-width="1" />
 
-  <!-- Vertical Divider -->
-  <line x1="340" y1="58" x2="340" y2="177" stroke="#CBD5E1" stroke-width="1" opacity="0.55" />
-
-  <!-- Activity Index Ring -->
-  <g transform="translate(414, 118)">
-    <circle cx="0" cy="0" r="45" fill="#087EA4" opacity="0.14" />
-    <circle cx="0" cy="0" r="40" fill="none" stroke="#E2E8F0" stroke-width="7.5" />
-    <circle class="ring-progress-light" cx="0" cy="0" r="40" fill="none" stroke="url(#ring-grad-light)" stroke-width="7.5" stroke-linecap="round" transform="rotate(-90)" />
-    <text x="0" y="2" text-anchor="middle" font-family="'SF Pro Display', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="19" font-weight="800" fill="#0F172A">2.1k</text>
-    <text x="0" y="16" text-anchor="middle" font-family="'SF Mono', 'JetBrains Mono', 'Fira Code', ui-monospace, Menlo, monospace" font-size="8" font-weight="600" letter-spacing="0.8" fill="#64748B">12M TOTAL</text>
+  <g transform="translate(375, 119)">
+    <circle cx="0" cy="0" r="43" fill="#087EA4" opacity="0.08" />
+    <circle cx="0" cy="0" r="38" fill="none" stroke="#E2E8F0" stroke-width="7" />
+    <circle class="ring-progress-light" cx="0" cy="0" r="38" fill="none" stroke="url(#ring-grad-light)" stroke-width="7" stroke-linecap="round" transform="rotate(-90)" />
+    <text x="0" y="2" text-anchor="middle" font-family="'Space Grotesk', 'SF Pro Display', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="18" font-weight="800" fill="#0F172A">2.1k</text>
+    <text x="0" y="16" text-anchor="middle" font-family="'JetBrains Mono', 'SF Mono', 'Fira Code', ui-monospace, Menlo, Consolas, monospace" font-size="7.8" font-weight="700" letter-spacing="0.6" fill="#64748B">12M OUTPUT</text>
   </g>
 </svg>

@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="218" height="38" viewBox="0 0 218 38" role="img" aria-label="Portfolio · Live Site ↗">
+  <rect x="0.75" y="0.75" width="216.5" height="36.5" rx="18.25" fill="#EFF6FF" stroke="#087EA4" stroke-width="1.3" />
+  <g transform="translate(15, 11)" fill="none" stroke="#087EA4" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="8" cy="8" r="6.5"/><path d="M1.8 8h12.4M8 1.5c2 2 3 4.2 3 6.5s-1 4.5-3 6.5c-2-2-3-4.2-3-6.5s1-4.5 3-6.5z"/>
+  </g>
+  <text x="38" y="23" font-family="'Plus Jakarta Sans', 'SF Pro Text', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="700" fill="#0F172A">Portfolio <tspan font-family="'JetBrains Mono', 'SF Mono', 'Fira Code', ui-monospace, Menlo, Consolas, monospace" font-size="11" font-weight="500" fill="#087EA4">· Live Site ↗</tspan></text>
+</svg>
