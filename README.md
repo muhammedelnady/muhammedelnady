@@ -38,6 +38,63 @@
 
 ---
 
+<h2 align="center">Built, Shipped &amp; Open-Source</h2>
+
+<div align="center">
+
+<table>
+  <tr>
+    <td align="center" valign="top">
+      <a href="https://github.com/muhammedelnady/VaultFold"><img height="330" src="./assets/showcase/vaultfold.png" alt="VaultFold screenshot" /></a><br/>
+      <sub><b>VaultFold</b></sub>
+    </td>
+    <td align="center" valign="top">
+      <a href="https://github.com/muhammedelnady/chat-roulette"><img height="330" src="./assets/showcase/chat-roulette.png" alt="chat-roulette screenshot" /></a><br/>
+      <sub><b>chat-roulette</b></sub>
+    </td>
+    <td align="center" valign="top">
+      <a href="https://github.com/muhammedelnady/qadaa"><img height="330" src="./assets/showcase/qadaa.png" alt="qadaa · قضاء screenshot" /></a><br/>
+      <sub><b>qadaa · قضاء</b></sub>
+    </td>
+    <td align="center" valign="top">
+      <a href="https://github.com/muhammedelnady/moviesapp-ios"><img height="330" src="./assets/showcase/moviesapp-ios.png" alt="MoviesApp iOS screenshot" /></a><br/>
+      <sub><b>MoviesApp iOS</b></sub>
+    </td>
+    <td align="center" valign="top">
+      <a href="https://github.com/muhammedelnady/moviesapp-android"><img height="330" src="./assets/showcase/moviesapp-android.png" alt="MoviesApp Android screenshot" /></a><br/>
+      <sub><b>MoviesApp Android</b></sub>
+    </td>
+    <td align="center" valign="top">
+      <a href="https://github.com/muhammedelnady/react-native-foldface"><img height="330" src="./assets/showcase/foldface.png" alt="FoldFace screenshot" /></a><br/>
+      <sub><b>FoldFace</b></sub>
+    </td>
+  </tr>
+</table>
+
+<sub>Real screenshots from my public repos — tap any app to open its README.</sub>
+
+<br/><br/>
+
+<table width="100%">
+  <tr>
+    <td align="center"><h3>8+</h3><sub>Years in mobile</sub></td>
+    <td align="center"><h3>15+</h3><sub>Production apps shipped</sub></td>
+    <td align="center"><h3>865</h3><sub>Tests in qadaa · 99%+ coverage</sub></td>
+    <td align="center"><h3>60/120</h3><sub>FPS UI-thread animation</sub></td>
+    <td align="center"><h3>EN · AR</h3><sub>True RTL parity</sub></td>
+  </tr>
+</table>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/marquee-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="./assets/marquee-light.svg" />
+  <img width="100%" src="./assets/marquee-dark.svg" alt="Tech stack: React Native, Expo, TypeScript, Swift, Kotlin, Reanimated, Skia, Firebase and more" />
+</picture>
+
+</div>
+
+---
+
 <h2 align="center">Engineering DNA</h2>
 
 ```ts
@@ -267,6 +324,20 @@ const mohamedElnady = {
 
 ---
 
+<h2 align="center">How I Ship</h2>
+
+```mermaid
+flowchart LR
+  A[Product idea] --> B[Clean architecture<br/>Domain · Data · UI]
+  B --> C[Native-grade UI<br/>Reanimated · Skia · SwiftUI · Compose]
+  C --> D[Quality gates<br/>Jest · E2E · Coverage]
+  D --> E[CI/CD<br/>Fastlane · Actions · Azure]
+  E --> F[App Store &amp; Google Play]
+  F --> G[Sentry telemetry] --> B
+```
+
+---
+
 <h2 align="center">GitHub Telemetry &amp; Activity</h2>
 
 <div align="center">
@@ -290,6 +361,15 @@ const mohamedElnady = {
     </td>
   </tr>
 </table>
+
+<!-- Trophies -->
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-trophy.vercel.app/?username=muhammedelnady&theme=tokyonight&no-frame=true&no-bg=true&row=1&column=7&margin-w=8" />
+    <source media="(prefers-color-scheme: light)" srcset="https://github-profile-trophy.vercel.app/?username=muhammedelnady&theme=flat&no-frame=true&no-bg=true&row=1&column=7&margin-w=8" />
+    <img width="100%" src="https://github-profile-trophy.vercel.app/?username=muhammedelnady&theme=tokyonight&no-frame=true&no-bg=true&row=1&column=7&margin-w=8" alt="GitHub trophies" />
+  </picture>
+</p>
 
 <!-- Adaptive Contribution Streak -->
 <p align="center">
