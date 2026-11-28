@@ -46,18 +46,18 @@
 
   <rect x="20" y="63" width="402" height="11" rx="5.5" fill="#1A2740" />
   <g clip-path="url(#lang-bar-clip-dark)">
-    <rect x="20.00" y="63" width="309.96" height="11" fill="#3178c6" /><rect x="329.96" y="63" width="49.15" height="11" fill="#A97BFF" /><line x1="329.96" y1="63" x2="329.96" y2="74" stroke="#0A1122" stroke-width="1.5" /><rect x="379.12" y="63" width="27.95" height="11" fill="#F05138" /><line x1="379.12" y1="63" x2="379.12" y2="74" stroke="#0A1122" stroke-width="1.5" /><rect x="407.06" y="63" width="7.76" height="11" fill="#f1e05a" /><line x1="407.06" y1="63" x2="407.06" y2="74" stroke="#0A1122" stroke-width="1.5" /><rect x="414.82" y="63" width="6.47" height="11" fill="#3572A5" /><line x1="414.82" y1="63" x2="414.82" y2="74" stroke="#0A1122" stroke-width="1.5" /><rect x="421.29" y="63" width="2.00" height="11" fill="#89e051" /><line x1="421.29" y1="63" x2="421.29" y2="74" stroke="#0A1122" stroke-width="1.5" />
+    <rect x="20.00" y="63" width="306.08" height="11" fill="#3178c6" /><rect x="326.08" y="63" width="48.54" height="11" fill="#A97BFF" /><line x1="326.08" y1="63" x2="326.08" y2="74" stroke="#0A1122" stroke-width="1.5" /><rect x="374.62" y="63" width="27.59" height="11" fill="#F05138" /><line x1="374.62" y1="63" x2="374.62" y2="74" stroke="#0A1122" stroke-width="1.5" /><rect x="402.21" y="63" width="12.70" height="11" fill="#f1e05a" /><line x1="402.21" y1="63" x2="402.21" y2="74" stroke="#0A1122" stroke-width="1.5" /><rect x="414.91" y="63" width="6.39" height="11" fill="#3572A5" /><line x1="414.91" y1="63" x2="414.91" y2="74" stroke="#0A1122" stroke-width="1.5" /><rect x="421.30" y="63" width="2.00" height="11" fill="#89e051" /><line x1="421.30" y1="63" x2="421.30" y2="74" stroke="#0A1122" stroke-width="1.5" />
   </g>
   
   <g transform="translate(20, 97)">
     <circle cx="5" cy="5" r="4.5" fill="#3178c6"  />
     <text x="16" y="9" font-family="'Plus Jakarta Sans', 'SF Pro Text', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600" fill="#F8FAFC">TypeScript</text>
-    <text x="194" y="9" text-anchor="end" font-family="'JetBrains Mono', 'SF Mono', 'Fira Code', ui-monospace, Menlo, Consolas, monospace" font-size="11.2" font-weight="600" fill="#94A3B8">77.1%</text>
+    <text x="194" y="9" text-anchor="end" font-family="'JetBrains Mono', 'SF Mono', 'Fira Code', ui-monospace, Menlo, Consolas, monospace" font-size="11.2" font-weight="600" fill="#94A3B8">76.1%</text>
   </g>
   <g transform="translate(226, 97)">
     <circle cx="5" cy="5" r="4.5" fill="#A97BFF"  />
     <text x="16" y="9" font-family="'Plus Jakarta Sans', 'SF Pro Text', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600" fill="#F8FAFC">Kotlin</text>
-    <text x="194" y="9" text-anchor="end" font-family="'JetBrains Mono', 'SF Mono', 'Fira Code', ui-monospace, Menlo, Consolas, monospace" font-size="11.2" font-weight="600" fill="#94A3B8">12.2%</text>
+    <text x="194" y="9" text-anchor="end" font-family="'JetBrains Mono', 'SF Mono', 'Fira Code', ui-monospace, Menlo, Consolas, monospace" font-size="11.2" font-weight="600" fill="#94A3B8">12.1%</text>
   </g>
   <g transform="translate(20, 125)">
     <circle cx="5" cy="5" r="4.5" fill="#F05138"  />
@@ -67,7 +67,7 @@
   <g transform="translate(226, 125)">
     <circle cx="5" cy="5" r="4.5" fill="#f1e05a"  />
     <text x="16" y="9" font-family="'Plus Jakarta Sans', 'SF Pro Text', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600" fill="#F8FAFC">JavaScript</text>
-    <text x="194" y="9" text-anchor="end" font-family="'JetBrains Mono', 'SF Mono', 'Fira Code', ui-monospace, Menlo, Consolas, monospace" font-size="11.2" font-weight="600" fill="#94A3B8">1.9%</text>
+    <text x="194" y="9" text-anchor="end" font-family="'JetBrains Mono', 'SF Mono', 'Fira Code', ui-monospace, Menlo, Consolas, monospace" font-size="11.2" font-weight="600" fill="#94A3B8">3.2%</text>
   </g>
   <g transform="translate(20, 153)">
     <circle cx="5" cy="5" r="4.5" fill="#3572A5"  />
